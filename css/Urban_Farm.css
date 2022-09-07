@@ -3,7 +3,10 @@
   }
   
   body {
+    background-image: url(../img/gettyimages-143917299-612x612.jpg);
+    background-size: 100%;
     font-family: Arial, Helvetica, sans-serif;
+
   }
   
   /* Style the header */
@@ -26,8 +29,9 @@
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
-    background: #ccc;
+    background: rgb(35, 32, 32);
     padding: 20px;
+    text-align: right;
   }
   
   /* Style the list inside the menu */
@@ -50,7 +54,7 @@
     background-color: #777;
     padding: 10px;
     text-align: right;
-    color: rgb(32, 21, 21);
+    color: rgb(225, 147, 147);
   }
   
   /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
